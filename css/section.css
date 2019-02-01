@@ -1,0 +1,178 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none; }
+
+.main_wrapper {
+  background-image: linear-gradient(138deg, #404082 0%, #1e1e4b 100%);
+  width: 100%;
+  height: 1100px; }
+  .main_wrapper .section_af_service {
+    font-family: "SF UI Display", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    width: 1920px;
+    height: 1100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto; }
+    .main_wrapper .section_af_service header {
+      display: block;
+      width: 100%;
+      height: 102px;
+      background-color: #393973;
+      margin-top: 5px;
+      margin-left: auto;
+      margin-right: auto; }
+      .main_wrapper .section_af_service header .main_header {
+        width: 1949px;
+        display: block;
+        height: 102px; }
+        .main_wrapper .section_af_service header .main_header .main_logo {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 37px;
+          margin-left: 191px;
+          margin-bottom: 35px;
+          float: left;
+          width: 130px;
+          height: 30px; }
+          .main_wrapper .section_af_service header .main_header .main_logo h1 {
+            width: 100px;
+            height: 22px;
+            color: #ffffff;
+            font-family: "SF UI Display";
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-right: 7px;
+            display: block; }
+          .main_wrapper .section_af_service header .main_header .main_logo img {
+            width: 16px;
+            height: 20px;
+            color: #ffffff;
+            font-family: "SF UI Display";
+            font-size: 14px;
+            font-weight: 400;
+            display: block; }
+        .main_wrapper .section_af_service header .main_header .list {
+          margin-left: 588px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          width: 742px;
+          padding-top: 46px; }
+          .main_wrapper .section_af_service header .main_header .list h1 {
+            display: block;
+            width: auto;
+            height: 20px;
+            color: #61618b;
+            font-family: "SF UI Display";
+            font-size: 14px;
+            font-weight: 600; }
+          .main_wrapper .section_af_service header .main_header .list .active {
+            color: #50e3c2; }
+        .main_wrapper .section_af_service header .main_header .login {
+          margin-top: -22px;
+          margin-right: 220px;
+          width: 46px;
+          height: 22px;
+          float: right; }
+          .main_wrapper .section_af_service header .main_header .login h1 {
+            color: #ffffff;
+            font-family: "SF UI Display";
+            font-size: 16px;
+            font-weight: 600; }
