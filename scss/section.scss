@@ -94,24 +94,17 @@ $base-font: 'SF UI Display';
   background-image: linear-gradient(138deg, #404082 0%, #1e1e4b 100%);
   width: 100%;
   height: 1100px;
+  padding-top: 5px;
 
   .section_af_service {
     font-family: $base-font, Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    // position: relative;
-    // top: 0;
-    // left: 0;
     width: 1920px;
-    height: 1100px;
-    display: flex;
-    justify-content: center;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 
     header {
       display: block;
-      width: 100%;
       height: 102px;
       background-color: #393973;
       margin-top: 5px;
@@ -120,8 +113,9 @@ $base-font: 'SF UI Display';
 
       .main_header {
         width: 1949px;
-        display: block;
         height: 102px;
+        display: flex;
+        justify-content: space-between;
 
         .main_logo {
           display: flex;
@@ -133,9 +127,6 @@ $base-font: 'SF UI Display';
           height: 30px;
 
           h1 {
-            // position: absolute;
-            // top: 47px;
-            // left: 191px;
             width: 100px;
             height: 22px;
             color: #ffffff;
@@ -148,9 +139,6 @@ $base-font: 'SF UI Display';
           }
 
           img {
-            // position: absolute;
-            // top: 47px;
-            // left: 298px;
             width: 16px;
             height: 20px;
             color: #ffffff;
@@ -162,13 +150,13 @@ $base-font: 'SF UI Display';
         }
 
         .list {
-          margin-left: 588px;
+          height: 20px;
           display: flex;
           justify-content: space-between;
           width: 742px;
-          padding-top: 46px;
+          margin-top: 46px;
 
-          h1 {
+          a {
             display: block;
             width: auto;
             height: 20px;
@@ -176,6 +164,7 @@ $base-font: 'SF UI Display';
             font-family: $base-font;
             font-size: 14px;
             font-weight: 600;
+            text-decoration: none;
           }
 
           .active {
@@ -184,20 +173,234 @@ $base-font: 'SF UI Display';
         }
 
         .login {
-          margin-top: -22px;
+          margin-top: 44px;
           margin-right: 220px;
+          margin-bottom: 36px;
           width: 46px;
           height: 22px;
           float: right;
 
-          h1 {
+          a {
             color: #ffffff;
             font-family: $base-font;
             font-size: 16px;
             font-weight: 600;
+            text-decoration: none;
           }
         }
       }
     }
   }
+
+  .main_section {
+    display: block;
+    margin-top: 313px;
+    margin-left: 191px;
+    width: 642px;
+    height: 383px;
+    float: left;
+
+    div {
+      width: 585px;
+      height: 92px;
+      margin-bottom: 27px;
+
+      h1 {
+        color: #ffffff;
+        font-family: $base-font;
+        font-size: 36px;
+        font-weight: 700;
+
+        span {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    div {
+      display: block;
+      width: 648px;
+      height: 73px;
+      margin-bottom: 56px;
+
+      p {
+        color: #757599;
+        font-family: $base-font;
+        font-size: 18px;
+        font-weight: 400;
+        float: left;
+
+        span {
+          display: inline-block;
+          width: 46px;
+          height: 2px;
+          border-radius: 2px;
+          background-color: #757599;
+          margin-bottom: 5px;
+        }
+      }
+    }
+
+    .registaration1 {
+      display: block;
+      width: auto;
+      height: 63px;
+
+      .login {
+        margin-right: 60px;
+      }
+
+      div {
+        width: 241px;
+        display: block;
+        height: 63px;
+        border-radius: 60px;
+        border: 1px solid #76769a;
+        float: left;
+
+        a {
+          display: block;
+          width: 241px;
+          height: 63px;
+          align-items: center;
+          vertical-align: center;
+          text-decoration: none;
+
+          span {
+            display: block;
+            color: #76769a;
+            font-family: $base-font;
+            font-size: 16px;
+            font-weight: 700;
+          }
+
+          .first {
+            width: 51px;
+            height: 22px;
+            padding: 22px 63px 19px 97px;
+          }
+
+          .second {
+            width: 108px;
+            height: 22px;
+            padding: 22px 93px 19px 70px;
+          }
+        }
+      }
+
+      div:hover {
+        background-image: linear-gradient(203deg, #24b2b0 0%, #32d4d2 100%);
+
+        a {
+          span {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .social_sites {
+      display: block;
+      width: 600px;
+      height: 17px;
+
+      div {
+        display: inline-block;
+        width: 82px;
+        height: 25px;
+        margin-right: 41px;
+        float: left;
+
+        a {
+          color: #747496;
+          font-family: $base-font;
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        a:hover {
+          color: #62c0ff;
+        }
+      }
+
+      div:hover {
+        width: auto;
+        span {
+          float: right;
+
+          display: inline-block;
+          width: 46px;
+          height: 2px;
+          border-radius: 2px;
+          background-color: #62c0ff;
+          margin-right: 28px;
+        margin-top: 11px;
+        margin-left: 28px;
+
+
+        }
+      }
+    }
+  }
+
+  .img_instagram {
+    display: block;
+    width: 1213px;
+    height: 676px;
+    float: right;
+    margin-right: -238px;
+    margin-top: 126px;
+
+    img {
+      width: auto;
+      height: auto;
+      padding: 102px 183px 114px 213px;
+    }
+  }
 }
+// @media (max-width: 960px){
+//   .section_af_service { background-image: linear-gradient(138deg, #404082 0%, #1e1e4b 100%);}
+// }
+// @media (max-width: 960px) {
+//   header {
+//
+//     height: auto;
+//     box-sizing: border-box;
+//     position: relative;
+//
+//     .main_header {
+//
+//       box-sizing: border-box;
+//       height: auto;
+//       width: 100%;
+//       display: flex;
+//       flex-direction: column;
+//       align-items: flex-start;
+//       text-align: center;
+//       align-items: center;
+//       // display: inline-block;
+//       .list {
+//         margin: 0 30px;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: flex-start;
+//       }
+//     }
+//   }
+// }
+// @media (max-width: 500px) {
+//   .main_header {
+//     // flex-direction: column;
+//     // align-items: flex-start;
+//     display: block;
+//     height: auto;
+//     width: auto;
+//     text-align: center;
+//     align-items: center;
+//
+//     .list {
+//       flex-direction: column;
+//       align-items: flex-start;
+//     }
+//   }
+// }
